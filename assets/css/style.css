@@ -42,7 +42,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid rgb(250, 170, 250);
 }
 
 h2,
@@ -83,13 +83,13 @@ nav {
   
 }
 
-.navbar-default {
+/* .navbar-default {
   color: #EE82EE;
   background-color: #CC3333;
-}
+} */
 
 .navbar {
-  background-color: #EE82EE;
+  background-color: rgb(248, 203, 210);
 }
 
 .navbar-nav {
@@ -130,7 +130,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid rgb(248, 203, 210);
   height: 50px;
 }
 
@@ -138,7 +138,7 @@ h3, h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid rgb(248, 203, 210);
 }
 
 /* main */
@@ -155,8 +155,8 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: rgb(248, 203, 210);
+  border: 1px solid rgb(248, 203, 210);
   margin-left: auto;
   margin-right: auto;
 }
@@ -189,7 +189,7 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color: rgb(248, 203, 210);
   text-align: center;
   background: #666;
   border-bottom: 0;
