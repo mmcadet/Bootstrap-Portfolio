@@ -179,6 +179,13 @@ h3, h2 {
   overflow: hidden;
 }
 
+.main-section welcome {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+}
 /* portfolio page */
 
 .photos {
