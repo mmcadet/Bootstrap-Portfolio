@@ -52,12 +52,13 @@
       <div class="contact_text">
         <p> Have questions or feedback to share? Send me a message! </p>
         <br>
-      </div>
-      <form id="contact-form">
+      </div> 
+
+      <form id="contact-form" action="contact.php" method="post">
         <ul>
           <li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required" value="<?=$varMovie;?>">
           </li>
           <li>
             <label for="email">Email</label>
@@ -68,7 +69,7 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <input type="submit" name="formSubmit" value="Submit">
       </form>
 
     </section>
