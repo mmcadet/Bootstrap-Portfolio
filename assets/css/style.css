@@ -191,7 +191,9 @@ h3, h2 {
 }
 
 #typedtext {
-  font-family: 'Waiting for the Sunrise', cursive; 
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
   font-size:30px; 
   margin: 10px 50px; 
   letter-spacing: 6px; 
